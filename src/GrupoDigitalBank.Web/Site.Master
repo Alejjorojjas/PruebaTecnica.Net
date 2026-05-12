@@ -1,0 +1,33 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="GrupoDigitalBank.Web.SiteMaster" %>
+<!DOCTYPE html>
+<html lang="es">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title><%: Page.Title %> - Grupo Digital Bank</title>
+    <link href="Content/Site.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header class="app-header">
+            <div class="shell header-inner">
+                <a class="brand" href="Usuario.aspx">
+                    <span class="brand-mark">GDB</span>
+                    <span>
+                        <strong>Grupo Digital Bank</strong>
+                        <small>Gestion de usuarios</small>
+                    </span>
+                </a>
+                <nav class="nav-links" aria-label="Navegacion principal">
+                    <a href="Usuario.aspx">Usuario</a>
+                    <a href="UsuarioConsulta.aspx">Usuario consulta</a>
+                </nav>
+            </div>
+        </header>
+        <main class="shell main-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </main>
+    </form>
+</body>
+</html>

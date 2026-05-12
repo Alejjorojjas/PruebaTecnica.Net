@@ -1,0 +1,1 @@
+<%@ ServiceHost Language="C#" Debug="true" Service="GrupoDigitalBank.ServicioWCF.UsuarioServicio" CodeBehind="UsuarioServicio.svc.cs" %>
