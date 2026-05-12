@@ -235,6 +235,21 @@ h2 {
     color: var(--ink);
 }
 
+.btn-danger {
+    background: var(--danger);
+    color: #ffffff;
+}
+
+.btn-danger:hover {
+    background: #7f2424;
+}
+
+.btn-small {
+    min-height: 34px;
+    padding: 7px 12px;
+    font-size: 0.9rem;
+}
+
 .text-link,
 .danger-link {
     font-weight: 800;

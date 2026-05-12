@@ -32,9 +32,9 @@
                 <asp:TemplateField HeaderText="Acciones">
                     <ItemTemplate>
                         <div class="row-actions">
-                            <asp:HyperLink ID="lnkModificar" runat="server" CssClass="text-link" Text="Modificar" NavigateUrl='<%# Eval("Id", "~/Usuario.aspx?id={0}") %>' />
+                            <asp:HyperLink ID="lnkModificar" runat="server" CssClass="btn btn-small btn-secondary" Text="Modificar" NavigateUrl='<%# Eval("Id", "~/Usuario.aspx?id={0}") %>' />
                             <asp:LinkButton ID="lnkEliminar" runat="server"
-                                CssClass="danger-link"
+                                CssClass="btn btn-small btn-danger"
                                 Text="Eliminar"
                                 CommandName="EliminarUsuario"
                                 CommandArgument='<%# Eval("Id") %>'
