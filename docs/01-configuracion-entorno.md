@@ -2,7 +2,7 @@
 
 Esta guia deja el equipo listo para compilar y ejecutar la prueba tecnica con .NET Framework 4.8, ASP.NET Web Forms, WCF y SQL Server.
 
-## 1. Instalar o modificar Visual Studio 2022
+## 1. Instalar o modificar Visual Studio
 
 Abre **Visual Studio Installer** y selecciona **Modify** sobre tu instalacion de Visual Studio.
 
@@ -29,7 +29,7 @@ Referencias oficiales:
 
 ## 2. Validar herramientas desde terminal
 
-Despues de instalar los componentes, abre **Developer PowerShell for VS 2022** y ejecuta:
+Despues de instalar los componentes, abre **Developer PowerShell for Visual Studio** y ejecuta:
 
 ```powershell
 where msbuild

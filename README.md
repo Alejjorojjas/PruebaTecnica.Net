@@ -18,7 +18,7 @@ La conexion a SQL Server se realiza desde el proyecto WCF, tal como solicita el 
 
 ## Requisitos
 
-- Visual Studio 2022 con soporte para ASP.NET Web Forms, WCF y .NET Framework.
+- Visual Studio 2022 o superior con soporte para ASP.NET Web Forms, WCF y .NET Framework.
 - .NET Framework 4.8 Developer Pack / Targeting Pack.
 - SQL Server Express LocalDB o SQL Server Express.
 - IIS Express, incluido normalmente con Visual Studio.
