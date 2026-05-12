@@ -102,7 +102,6 @@ Si Visual Studio cambia los puertos, actualizar el endpoint WCF en `src/GrupoDig
 - [Configuracion del entorno](docs/01-configuracion-entorno.md)
 - [Arquitectura](docs/02-arquitectura.md)
 - [Plan de pruebas](docs/03-plan-pruebas.md)
-- [Guia de entrega](docs/04-guia-entrega.md)
 
 ## Notas de entrega
 
