@@ -38,7 +38,7 @@
         <div class="actions">
             <asp:Button ID="btnGuardar" runat="server" Text="Guardar" CssClass="btn btn-primary" OnClick="btnGuardar_Click" />
             <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" CssClass="btn btn-secondary" CausesValidation="false" OnClick="btnCancelar_Click" />
-            <a class="text-link" href="UsuarioConsulta.aspx">Ver usuarios registrados</a>
+            <a class="btn btn-secondary" href="UsuarioConsulta.aspx">Ver usuarios registrados</a>
         </div>
     </section>
 </asp:Content>
